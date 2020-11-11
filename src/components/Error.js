@@ -6,12 +6,12 @@ export default function Error({ message }) {
     <div className="error-box">
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_alert-destructive.svg/1200px-OOjs_UI_icon_alert-destructive.svg.png"
-        weight="30"
-        height="30"
+        weight="20"
+        height="20"
         alt="error"
         className="alert-icon"
       />
-      <h4 className="error-message">{message}</h4>
+      <p className="error-message">{message}</p>
     </div>
   );
 }

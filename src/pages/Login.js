@@ -91,7 +91,9 @@ export default function Login() {
             <strong>Ingresar</strong>
           </button>
         </div>
-        {!error && <Error message="Usuario o contraseña incorrectos" />}
+        {!error && (
+          <Error message="usuario o contraseña inválidos, por favor intente de nuevo" />
+        )}
       </form>
       <h1 hidden={!login} className="login-message">
         Gracias por hacer login

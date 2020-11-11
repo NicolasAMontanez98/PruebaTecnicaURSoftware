@@ -1,0 +1,19 @@
+.error-message {
+  display: inline-block;
+  color: rgb(163, 14, 14);
+}
+
+.error-box {
+  background-color: rgb(243, 117, 117);
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 20px 10px 20px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.alert-icon {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 5px;
+}

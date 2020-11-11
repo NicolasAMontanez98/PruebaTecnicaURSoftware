@@ -1,0 +1,95 @@
+.login {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 30%;
+  border: 3px solid #f1f1f1;
+  border-radius: 5%;
+  box-shadow: 7px 7px 15px #525763;
+}
+
+.login-message {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px 0 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  text-align: center;
+  width: 30%;
+  border: 3px solid #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 7px 7px 15px #525763;
+}
+
+img.avatar {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.input-user {
+  padding: 12px 20px;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+.input-passw {
+  padding: 12px 20px;
+  display: inline-block;
+  width: 88%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+button.submit {
+  background-color: rgb(21, 177, 47);
+  border: none;
+  color: #fff;
+  padding: 14px 50px;
+  margin: 8px 0;
+  border-radius: 10px;
+  outline: none;
+}
+
+button.submit:hover {
+  background: rgb(4, 201, 16);
+  background: linear-gradient(
+    180deg,
+    rgba(4, 201, 16, 1) 0%,
+    rgba(4, 201, 16, 1) 0%,
+    rgba(13, 193, 31, 1) 51%
+  );
+  opacity: 0.9;
+  box-shadow: 7px 7px 13px #6a6f7a;
+}
+
+.inputGroup {
+  padding: 16px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button.showPass {
+  outline: none;
+  margin-left: 1px;
+  border: none;
+  background-color: #fff;
+}
